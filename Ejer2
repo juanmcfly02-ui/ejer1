@@ -1,0 +1,14 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+double myDouble = 5.48;
+
+int myInt = (int) myDouble; // Manual casting: double to int
+
+Console.WriteLine(myDouble); // Output: 9.78
+Console.WriteLine(myInt);    // Output: 9
+    }
+}
