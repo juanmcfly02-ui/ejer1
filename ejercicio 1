@@ -1,0 +1,23 @@
+using System;
+class Program
+{
+    static void Main()
+    {
+        
+        int myInt = 10;
+        Console.WriteLine(Convert.ToString(myInt)); 
+
+       
+        int number = 10;
+        Console.WriteLine(Convert.ToDouble(number)); 
+
+        
+        double myDouble = 5.25;
+        Console.WriteLine(Convert.ToInt32(myDouble)); 
+        Console.WriteLine(Convert.ToInt64(myDouble)); 
+
+        
+        string value = "True";
+        Console.WriteLine(Convert.ToBoolean(value)); 
+    }
+}
