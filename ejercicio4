@@ -1,0 +1,21 @@
+using System;
+
+namespace MyApplication
+{
+    class Program
+    {
+        //static
+        
+        static void Main(string[] args) 
+        {
+            double sum1 = 100 + 50 ;
+            double  sum2= sum1 + 250 ;
+            double  sum3= sum2 + sum2;
+            
+            Console.WriteLine(sum1);
+            Console.WriteLine(sum2);
+            Console.WriteLine(sum3);
+            
+        }
+    }
+}
