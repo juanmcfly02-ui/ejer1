@@ -1,0 +1,23 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Ingresa el primer día: ");
+        string dia1 = Console.ReadLine().ToLower();
+
+        Console.Write("Ingresa el segundo día: ");
+        string dia2 = Console.ReadLine().ToLower();
+
+        if ((dia1 == "sabado" || dia1 == "domingo") &&
+            (dia2 == "sabado" || dia2 == "domingo"))
+        {
+            Console.WriteLine("🎉 Ambos son fin de semana.");
+        }
+        else
+        {
+            Console.WriteLine("📚 Uno o ambos no son fin de semana.");
+        }
+    }
+}
