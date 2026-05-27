@@ -1,0 +1,22 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("¿Tienes licencia? (si/no): ");
+        string licencia = Console.ReadLine();
+
+        Console.Write("¿Cuántos años de experiencia tienes?: ");
+        int añosExperiencia = Convert.ToInt32(Console.ReadLine());
+
+        if (licencia == "si" && añosExperiencia >= 2)
+        {
+            Console.WriteLine(" Puedes aplicar para el puesto.");
+        }
+        else
+        {
+            Console.WriteLine("No cumples los requisitos.");
+        }
+    }
+}
