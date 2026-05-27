@@ -1,0 +1,41 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Ingresa el numero del dia: ");
+        int day = Convert.ToInt32(Console.ReadLine());
+
+        switch (day)
+        {
+            case 1:
+                Console.WriteLine("Lunes");
+                break;
+
+            case 2:
+                Console.WriteLine("Martes");
+                break;
+
+            case 3:
+                Console.WriteLine("Miércoles");
+                break;
+
+            case 4:
+                Console.WriteLine("Jueves");
+                break;
+
+            case 5:
+                Console.WriteLine("Viernes");
+                break;
+
+            case 6:
+                Console.WriteLine("Fin de semana");
+                break;
+
+            default:
+                Console.WriteLine("Numero invalido");
+                break;
+        }
+    }
+}
